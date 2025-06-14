@@ -1,0 +1,44 @@
+.hero-section{
+    
+    background:linear-gradient(rgba(20,20,20,.5),rgba(20,20,20,.5)), 
+    url('/src/assets/images/herobg.jpg');
+    height: 600px;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.hero-text p{
+    font-size: large;
+    color: rgb(198, 197, 197);
+
+}
+
+
+.hero-text p br{
+    display: none;
+    
+}
+
+@media (min-width:768px) {
+    
+.hero-text{
+    font-size: 48px;
+    padding-left:90px;
+} 
+
+.hero-text p{
+    font-size: 25px;
+    color: rgb(198, 197, 197);
+}
+
+.hero-text p br{
+    display: inline;
+    
+}
+    
+}
