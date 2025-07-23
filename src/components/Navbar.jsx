@@ -1,41 +1,48 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-3">
-      <div className="container-fluid">
-        <NavLink to="/" className="navbar-brand fw-bold fs-2">
-          Presento<span className="text-danger">.</span>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+      <div className="container ">
+        <NavLink className="navbar-brand text-dark fw-bold fs-2" to="/">
+          Presento <span className="text-danger">.</span>
         </NavLink>
-
         <button
-          className="navbar-toggler"
+          className="navbar-toggler text-dark"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-toggle="collapse "
+          data-bs-target="#navbarNav "
+          aria-controls="navbarNav "
           aria-expanded="false"
-          aria-label="Toggle navigation"
+          aria-label="Toggle navigation "
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <div className="navbar-nav">
-            <NavLink to="/" className={({ isActive }) => isActive ? "nav-link mx-3 active fw-bold text-danger" : "nav-link mx-3"}>Home</NavLink>
-            <NavLink to="/aboutus" className={({ isActive }) => isActive ? "nav-link mx-3 active fw-bold text-danger" : "nav-link mx-3"}>About</NavLink>
-            <NavLink to="/services" className={({ isActive }) => isActive ? "nav-link mx-3 active fw-bold text-danger" : "nav-link mx-3"}>Services</NavLink>
-            <NavLink to="/portfolio" className={({ isActive }) => isActive ? "nav-link mx-3 active fw-bold text-danger" : "nav-link mx-3"}>Portfolio</NavLink>
-            <NavLink to="/team" className={({ isActive }) => isActive ? "nav-link mx-3 active fw-bold text-danger" : "nav-link mx-3"}>Team</NavLink>
-            <NavLink to="/blog" className={({ isActive }) => isActive ? "nav-link mx-3 active fw-bold text-danger" : "nav-link mx-3"}>Blog</NavLink>
-            <NavLink to="/contact" className={({ isActive }) => isActive ? "nav-link mx-3 active fw-bold text-danger" : "nav-link mx-3"}>Contact</NavLink>
-          </div>
-
-          <button className="btn btn-danger px-4 ms-3" type="button">
-            Get Started
-          </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <NavLink className="nav-link text-dark" to="/">Home</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link text-dark" to="/About">About</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link text-dark" to="/services">Services</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link text-dark" to="/portfolio">Portfolio</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link text-dark" to="/team">Team</NavLink>
+            </li>
+            {/* <li className="nav-item">
+              <NavLink className="nav-link text-dark" to="/testimonials">Testimonials</NavLink>
+            </li> */}
+            <li className="nav-item">
+              <NavLink className="nav-link text-dark" to="/contact">Contact</NavLink>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
