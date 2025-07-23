@@ -6,25 +6,25 @@ const Team = () => {
   const prod=[
     {
       id:1,
-      img:"./src/assets/images/team-1.jpg",
+      img:"/public/assets/images/team-1.jpg",
       name:'Walter White' ,
       role:'Chief Executive Officer'
     },
     {
       id:2,
-       img:"./src/assets/images/team-2.jpg",
+       img:"/public/assets/images/team-2.jpg",
       name:'Sarah Jhonson' ,
       role:'Product Manager'
     },
     {
       id:3,
-       img:"./src/assets/images/team-3.jpg",
+       img:"/public/assets/images/team-3.jpg",
       name:'William Anderson' ,
       role:'CTO'
     },
     {
       id:4,
-       img:"./src/assets/images/team-4.jpg",
+       img:"/public/assets/images/team-4.jpg",
       name:'Amanda Jepson' ,
       role:'Accountant'
     }

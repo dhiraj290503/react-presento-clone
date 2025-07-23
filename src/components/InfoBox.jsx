@@ -1,5 +1,5 @@
 import React from 'react'
-import gem from '../assets/images/gem.png'
+import gem from '/public/assets/images/gem.png'
 const InfoBox = (props) => {
   return (
     <>

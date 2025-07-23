@@ -63,44 +63,44 @@ All_handler=()=>{
   const appProd =[
     {
       id: 1,
-      img: "../src/assets/images/app1.jpg",
+      img: "/public/assets/images/app1.jpg",
     },
     {
       id: 2,
-      img: "../src/assets/images/app2.jpg",
+      img: "/public/assets/images/app2.jpg",
     },
     {
       id: 3,
-      img: "../src/assets/images/app3.jpg",
+      img: "/public/assets/images/app3.jpg",
     }
   ]
 
   const brand=[
     {
       id: 1,
-      img: "../src/assets/images/branding1.jpg",
+      img: "/public/assets/images/branding1.jpg",
     }, {
       id: 2,
-      img: "../src/assets/images/branding2.jpg",
+      img: "/public/assets/images/branding2.jpg",
     },
     {
       id: 3,
-      img: "../src/assets/images/branding3.jpg",
+      img: "/public/assets/images/branding3.jpg",
     }
   ]
 
   const books=[
        {
       id: 1,
-      img: "../src/assets/images/books1.jpg",
+      img: "/public/assets/images/books1.jpg",
     },
        {
       id: 2,
-      img: "../src/assets/images/books-2.jpg",
+      img: "/public/assets/images/books-2.jpg",
     },
     {
       id: 3,
-      img: "../src/assets/images/books3.jpg",
+      img: "/public/assets/images/books3.jpg",
     }
 
   ]
@@ -108,17 +108,17 @@ All_handler=()=>{
    
     {
       id: 1,
-      img: "../src/assets/images/product1.jpg",
+      img: "/public/assets/images/product1.jpg",
     },
     
       {
       id: 2,
-      img: "../src/assets/images/product2.jpg",
+      img: "/public/assets/images/product2.jpg",
     },
 
     {
       id: 3,
-      img: "../src/assets/images/product3.jpg",
+      img: "/public/assets/images/product3.jpg",
     },
     
     

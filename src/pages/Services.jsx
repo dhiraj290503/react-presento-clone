@@ -6,37 +6,37 @@ const Services = () => {
   const prod = [
     {
       id: 1,
-      img: "../src/assets/images/gem.png",
+      img: "/public/assets/images/gem.png",
       heading: "Lorem Ipsum",
       info: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
     },
     {
       id: 2,
-      img: "../src/assets/images/gem.png",
+      img: "/public/assets/images/gem.png",
       heading: "Dolor Sitema",
       info: "Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata",
     },
     {
       id: 3,
-      img: "../src/assets/images/gem.png",
+      img: "/public/assets/images/gem.png",
       heading: "Sed ut perspiciatis",
       info: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
     },
     {
       id: 4,
-      img: "../src/assets/images/gem.png",
+      img: "/public/assets/images/gem.png",
       heading: "Magni Dolores",
       info: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
     },
     {
       id: 5,
-      img: "../src/assets/images/gem.png",
+      img: "/public/assets/images/gem.png",
       heading: "Nemo Enim",
       info: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque",
     },
     {
       id: 6,
-      img: "../src/assets/images/gem.png",
+      img: "/public/assets/images/gem.png",
       heading: "Eiusmod Tempor",
       info: "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi",
     },
