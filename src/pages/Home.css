@@ -1,7 +1,7 @@
 .hero-section{
     
     background:linear-gradient(rgba(20,20,20,.5),rgba(20,20,20,.5)), 
-    url('/src/assets/images/herobg.jpg');
+    url('/public/assets/images/herobg.jpg');
     height: 600px;
     background-position: center; 
     background-size: cover;
